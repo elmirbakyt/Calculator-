@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        #res {
+            background-color: chartreuse;
+            max-width: 450px;
+        }
+      .nm {
+          background-color: rgb(232, 253, 109);
+      }
+      .int {
+        border-radius: 3px;
+          background-color: darkgray;
+          max-width: 450px;
+
+          
+          
+      }
+
+      .zn {
+          background-color: darkorange;
+      }
+  
+    </style>
+</head>
+<body>
+    <div class="int">
+    <input  class="nm" type="text" id="number1">
+    <input class="nm" type="text" id="number2">
+    <h1 style="color: rgb(9, 9, 109);" id="res">result:</h1>
+    <button class="zn" onclick="onmins()">-</button>
+    <button class="zn" onclick="onpls()">+</button>
+    <button class="zn" onclick="ontimes()">&times;</button>
+    <button class="zn" onclick="ondivide()">&divide;</button>
+    <button class="zn" onclick="onstp()">**</button></div>
+    <script src="./script.js" >
+         
+</script>
+</body>
+</html>
